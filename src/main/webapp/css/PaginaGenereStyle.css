@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('https://steamuserimages-a.akamaihd.net/ugc/868480752635572396/EFC859F2882B979BCE3D9C2B477FC4A46E3C6971/');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    z-index: 999;
+}
+
+.card {
+    background: #1C3F69;
+}
+
+.card-title, .card-body p {
+    color: whitesmoke;
+}
+
+h5, del {
+    color: #FF640A;
+}
+
+.text-warning {
+    color: #FF640A !important;
+}
+
+/* Classe per l'altezza uguale delle card */
+.card-equal-height {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;  /* Fa crescere il contenuto della card */
+}
+
+.card-body .mt-auto {
+    margin-top: auto;  /* A quanto pare spinge il bottone verso il basso */
+}

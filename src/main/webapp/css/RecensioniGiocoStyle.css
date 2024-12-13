@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.recensione-card {
+    background-color: #011137;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.recensione-card h5 {
+    margin-top: 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.recensione-card p {
+    margin: 5px 0;
+}
+
+.card-btn-group {
+    margin-top: 15px;
+}
+
+#barra-recensioni {
+    background-color: #141414 !important;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    height: 20px;
+}

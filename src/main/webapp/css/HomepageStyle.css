@@ -1,0 +1,59 @@
+@charset "UTF-8";
+body{
+	background-image: url('https://steamuserimages-a.akamaihd.net/ugc/868480752635572396/EFC859F2882B979BCE3D9C2B477FC4A46E3C6971/');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.navbar-brand {
+	color: whitesmoke !important;
+}
+
+.card {
+	margin-bottom: 50px;
+	background: #1C3F69 !important;
+	color: whitesmoke;
+	min-height: 450px !important;
+	}
+
+.card-body {
+	flex-grow: 1;	
+}
+
+.card h5, .card p {
+	margin-bottom: 10px;
+}
+
+
+#immagini-carte {
+	height:250px !important;
+}
+
+.my-nav{
+	position: absolute;
+	width: 100%;
+	z-index: 999;
+	background: none !important;
+	border: 0;
+	border-radius: 0;
+}
+
+.my-nav .navbar-nav a{
+	color: whitesmoke !important;
+}
+
+.my-nav .navbar-nav .dropdown-menu a {
+	color: #181A21 !important;
+}
+
+.my-carousel {
+	top: -80px;
+}
+
+.carousel-item img {
+	height: 65vh !important;
+	aspect-ratio: 21/9;
+}
+.carousel-item {
+	height: 65vh !important;
+}

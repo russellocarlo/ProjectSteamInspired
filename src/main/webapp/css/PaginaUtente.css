@@ -1,0 +1,84 @@
+@charset "UTF-8";
+body{
+	background-image: url('https://steamuserimages-a.akamaihd.net/ugc/868480752635572396/EFC859F2882B979BCE3D9C2B477FC4A46E3C6971/');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.navbar-brand {
+	color: whitesmoke !important;
+}
+
+#cont-fluido {
+	padding-left: 50px;  
+	padding-right: 50px;
+}
+.card {
+	margin-top: 10vh;
+	background: #1C3F69 !important;
+	color: whitesmoke;
+	}
+	
+#descrizione{
+	margin-top: 11vh;
+}
+
+.card-body {
+	flex-grow: 1;	
+}
+
+.card h5, .card p {
+	margin-bottom: 10px;
+}
+
+
+#immagini-carte {
+	height:60vh !important;
+}
+
+.my-nav{
+	position: absolute;
+	width: 100%;
+	z-index: 999;
+	background: #1C3F69 !important;
+	border: 0;
+	border-radius: 0;
+}
+
+.my-nav .navbar-nav a{
+	color: whitesmoke !important;
+}
+
+.my-nav .navbar-nav .dropdown-menu a {
+	color: #181A21 !important;
+}
+
+#contenitore-carte{
+	height: 100%;
+}
+
+p, h2 {
+	color: whitesmoke;
+}
+
+
+.form-control {
+    background-color: #343a40; 
+    color: #F5F5F6; 
+    border: 1px solid #7A8B9D; 
+}
+
+::-webkit-input-placeholder { /* WebKit browsers (Safari, Google Chrome, Opera 15+) */
+    color: white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: white;
+   opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: white;
+   opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color: white;
+}

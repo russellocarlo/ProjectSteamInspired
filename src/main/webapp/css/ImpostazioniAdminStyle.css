@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{
+	color:lightgray;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+
+.contenitore-carte{
+	margin-top: auto;
+	background: #1C3F69 !important;
+	color: whitesmoke;
+	flex-grow:1;
+}
+
